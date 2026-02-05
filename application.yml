@@ -24,6 +24,7 @@ lavalink:
 metrics:
   prometheus:
     enabled: false
+    endpoint: /metrics
 
 sentry:
   dsn: ""
