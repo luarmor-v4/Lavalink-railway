@@ -4,6 +4,8 @@ WORKDIR /opt/Lavalink
 
 COPY application.yml ./
 
-EXPOSE 2333
+ENV SERVER_PORT=10000
 
-CMD ["java", "-jar", "Lavalink.jar"]
+EXPOSE 10000
+
+ENTRYPOINT ["java", "-Xmx256m", "-jar", "Lavalink.jar"]
