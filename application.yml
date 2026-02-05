@@ -21,15 +21,6 @@ lavalink:
     soundcloudSearchEnabled: true
     gc-warnings: true
 
-metrics:
-  prometheus:
-    enabled: false
-    endpoint: /metrics
-
-sentry:
-  dsn: ""
-  environment: ""
-
 logging:
   level:
     root: INFO
