@@ -1,10 +1,10 @@
 server:
-  port: ${PORT:2333}
+  port: 10000
   address: 0.0.0.0
 
 lavalink:
   server:
-    password: ${LAVALINK_SERVER_PASSWORD:ToingDc}
+    password: "ToingDc"
     sources:
       youtube: true
       bandcamp: true
@@ -28,6 +28,7 @@ metrics:
 
 sentry:
   dsn: ""
+  environment: ""
 
 logging:
   level:
